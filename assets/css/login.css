@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(/assets/images/login_bg.jpg) no-repeat;
+    background-size:  cover;
+}
+.head{
+    padding-top: 20px;
+}
+.loginAndReg{
+    width: 400px;
+  height: 310px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.header-box{
+    height: 60px;
+    background: url('/assets/images/login_title.png') no-repeat center;
+}
+
+.reg{
+    display: none;
+}
+.layui-form{
+    padding: 0 30px;
+}
+.layui-btn{
+    width: 100%;
+
+}
+.links {
+    display: flex;
+    /* 控制主轴的对齐方式 */
+    justify-content: flex-end;
+  }
+
+.layui-input{
+    padding-left: 30px;
+}

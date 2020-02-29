@@ -48,7 +48,7 @@ function userInfo() {
 function touxiang(data) {
     var name = data.nickname || data.username;
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name);
-    console.log(data.datauser_pic);
+    console.log(data);
 
     if (data.user_pic) {
         $('.layui-nav-img').show().attr('src', data.user_pic);

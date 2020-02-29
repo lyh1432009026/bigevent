@@ -32,7 +32,7 @@ $(function () {
 
         $.ajax({
             type: 'post',
-            url: 'http://www.liulongbin.top:3007/api/reguser',
+            url: '/api/reguser',
             data: $(this).serialize(),
             success: function (res) {
 
@@ -52,7 +52,7 @@ $(function () {
 
         $.ajax({
             type: 'post',
-            url: 'http://www.liulongbin.top:3007/api/login',
+            url: '/api/login',
             data: $(this).serialize(),
             success: function (res) {
                 console.log(res);

@@ -2,7 +2,7 @@ $.ajaxPrefilter(function (opent) {
     opent.url = 'http://www.liulongbin.top:3007' + opent.url;
     if (opent.url.indexOf('/my') !== -1) {
         opent.headers = {
-            Authorization: localStorage.getItem('token');
+            Authorization: localStorage.getItem('token')
         };
     };
     opent.complete = function (res) {

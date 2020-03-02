@@ -29,7 +29,6 @@ function userInfo() {
         url: '/my/userinfo',
 
         success: function (res) {
-            console.log(res);
 
             if (res.status == 1 && res.message == '身份认证失败！') {
                 return layer.msg('身份认证失败！');
@@ -48,7 +47,6 @@ function userInfo() {
 function touxiang(data) {
     var name = data.nickname || data.username;
     $('#welcome').html('欢迎&nbsp;&nbsp;' + name);
-    console.log(data);
 
     if (data.user_pic) {
         $('.layui-nav-img').show().attr('src', data.user_pic);

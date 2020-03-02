@@ -1,0 +1,19 @@
+body{
+    padding: 15px;
+    background-color: darkgrey;
+}
+.layui-form{
+    width: 500px;
+}
+#add{
+    float: right;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-top: 5px;
+}
+form{
+    padding: 15px;
+    box-sizing: border-box;
+}
